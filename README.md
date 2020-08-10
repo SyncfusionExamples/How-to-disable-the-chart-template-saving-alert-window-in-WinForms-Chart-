@@ -1,6 +1,6 @@
 # How to disable the chart template saving alert window in WinForms Chart
 
-This article explains how to avoid below popup window while showing up for saving the chart template in load time.
+This article explains how to avoid the following pop-up window while showing up for [saving the chart template](https://help.syncfusion.com/windowsforms/chart/design-time-features#save-template) at load time.
 
 ![Display the popup](Display_Popup.png)
 
@@ -10,8 +10,7 @@ The above alert window shows when you are executing Save command as like in belo
 ChartTemplate.Save(this.chartControl1, "TemplateName.xml");
 ```
 
-The below code snippet is used to save the template (series and point properties as XAML file) by default without getting that popup 
-
+If your requirement is to save the chart template (series properties and the point properties, which was saved in XML file) without getting that pop-up then, please refer the following code sample instead of saving like [this](https://help.syncfusion.com/windowsforms/chart/design-time-features#saving-chart-series-data). 
 C#
 ```
 ..
