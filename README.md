@@ -4,11 +4,6 @@ This article explains how to avoid the following pop-up window while showing up 
 
 ![Display the popup](Display_Popup.png)
 
-The above alert window shows when you are executing Save command as like in below
-
-```
-ChartTemplate.Save(this.chartControl1, "TemplateName.xml");
-```
 
 If your requirement is to save the chart template (series properties and the point properties, which was saved in XML file) without getting that pop-up then, please refer the following code sample instead of saving like [this](https://help.syncfusion.com/windowsforms/chart/design-time-features#saving-chart-series-data). 
 C#
