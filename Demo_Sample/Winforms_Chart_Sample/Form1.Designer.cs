@@ -55,7 +55,7 @@ namespace WindowsFormsApplication1
             this.chartControl1.Tooltip.BackgroundColor = new BrushInfo(Color.White);
             this.chartControl1.Tooltip.BorderStyle = BorderStyle.FixedSingle;
             this.chartControl1.Tooltip.Font = new Font("Segoe UI", 10);
-            
+
             // 
             // Legend
             // 
@@ -110,7 +110,7 @@ namespace WindowsFormsApplication1
             chartSeries1.Style.TextOrientation = ChartTextOrientation.Up;
             this.chartControl1.Dock = DockStyle.Fill;
             this.chartControl1.Series.Add(chartSeries1);
-            
+
             this.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.chartControl1.Size = new System.Drawing.Size(600, 450);
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -122,7 +122,7 @@ namespace WindowsFormsApplication1
             this.ResumeLayout(false);
 
         }
-        
+
         private void ChartSeries1_PrepareStyle(object sender, ChartPrepareStyleInfoEventArgs args)
         {
             ChartSeries series = sender as ChartSeries;
@@ -137,4 +137,3 @@ namespace WindowsFormsApplication1
         private bool canStopTimer;
     }
 }
-
